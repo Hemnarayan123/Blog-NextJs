@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 async function getData() {
-  const res = await fetch("https://blog-portfolio-kappa.vercel.app/api/posts", {
+  const res = await fetch("https://blog-three-alpha-55.vercel.app/api/posts", {
     cache: "no-store",
   });
 

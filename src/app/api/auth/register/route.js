@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import { NextResponse } from "next/server";
 
 // List of allowed origins (change as needed)
-const allowedOrigins = ["https://blog-portfolio-kappa.vercel.app"]; // Your Vercel frontend URL
+const allowedOrigins = ["https://blog-three-alpha-55.vercel.app"]; // Your Vercel frontend URL
 
 export const POST = async (request) => {
   const { name, email, password } = await request.json();
